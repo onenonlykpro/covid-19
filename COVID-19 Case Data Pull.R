@@ -3,8 +3,9 @@
 source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Global.R")
 
 
-# Get U.S. state case data ------------------------------------------------
+# Get case data by county of states of interest ------------------------------------------------
 source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Pennsylvania.R")
+source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Ohio.R")
 
 
 # Create and export dataframe of sources ----------------------------------
