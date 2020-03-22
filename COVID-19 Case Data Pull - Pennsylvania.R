@@ -90,7 +90,7 @@ df_pa_county_population$estimated_population <-
      df_pa_county_population$age_80_to_84 +
      df_pa_county_population$age_85_or_older
 
-# Scrape Pennsylvania case data from Google ------------------------------
+# Scrape Pennsylvania case data from PA Dept. of Health ------------------------------
 pa_dept_health_covid19_url <- "https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx"
 pa_dept_health_covid19_html <- read_html(pa_dept_health_covid19_url)
 pa_dept_health_covid19_html_node <- html_node(pa_dept_health_covid19_html,
@@ -109,7 +109,7 @@ df_covid19_cases_pa$Location <- gsub("\u200B", "", df_covid19_cases_pa$County)
 
 # Add State and Country column
 df_covid19_cases_pa$state_or_province <- "Pennsylvania"
-df_covid19_cases_pa$country <- "United States of America"
+df_covid19_cases_pa$country <- "United States"
 
 # Join population estimate and GEOIDs to COVID-19 dataset
 df_pa_county_GEOIDs <- merge(df_pa_county_GEOIDs, df_pa_county_population[,c("NAME","estimated_population")], all.x = TRUE)
