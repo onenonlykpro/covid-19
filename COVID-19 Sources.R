@@ -9,6 +9,8 @@ list_of_dataframes <- c(
   "Ohio Population by Age Group",
   "West Virginia COVID-19 Cases by County",
   "West Virginia Population by Age Group",
+  "New York COVID-19 Cases by County",
+  "New York Population by Age Group",
 )
 
 
@@ -20,6 +22,8 @@ list_of_sources <- c(
   "Ohio Department of Health",
   "U.S. Census 2018 ACS",
   "West Virginia Department of Health and Human Resources",
+  "U.S. Census 2018 ACS",
+  "New York Department of Health",
   "U.S. Census 2018 ACS"
 )
 
@@ -32,6 +36,8 @@ list_of_links <- c(
   oh_dept_health_covid19_url,
   "Retrieved via tidycensus package",
   wv_dept_health_covid19_url,
+  "Retrieved via tidycensus package",
+  ny_dept_health_covid19_url,
   "Retrieved via tidycensus package"
 )
 
@@ -44,7 +50,9 @@ list_of_r_scripts <- c(
   "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Ohio.R",
   "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Ohio.R",
   "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - West Virginia.R",
-  "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - West Virginia.R"
+  "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - West Virginia.R",
+  "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - New York.R",
+  "C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - New York.R"
 )
 
 

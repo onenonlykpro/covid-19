@@ -7,6 +7,7 @@ source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Global.R"
 source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Pennsylvania.R")
 source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - Ohio.R")
 source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - West Virginia.R")
+source("C:/Users/oneno/OneDrive/UPMC/Scripts/COVID-19 Case Data Pull - New York.R")
 
 
 # Create and export dataframe of sources ----------------------------------
